@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Art-Gallery/static/css/main.5204555a.css",
+    "main.css": "/Art-Gallery/static/css/main.4bac85db.css",
     "main.js": "/Art-Gallery/static/js/main.1878c322.js",
     "static/media/RubikPuddles-Regular.ttf": "/Art-Gallery/static/media/RubikPuddles-Regular.db0b337f1dcd411924e4.ttf",
     "static/media/unicorn.jpg": "/Art-Gallery/static/media/unicorn.567703f935e242709a96.jpg",
@@ -10,11 +10,11 @@
     "static/media/surfgirafa.jpg": "/Art-Gallery/static/media/surfgirafa.e1738d54246f91b9d0ef.jpg",
     "static/media/Coiny-Regular.ttf": "/Art-Gallery/static/media/Coiny-Regular.61e71214a606a6502029.ttf",
     "index.html": "/Art-Gallery/index.html",
-    "main.5204555a.css.map": "/Art-Gallery/static/css/main.5204555a.css.map",
+    "main.4bac85db.css.map": "/Art-Gallery/static/css/main.4bac85db.css.map",
     "main.1878c322.js.map": "/Art-Gallery/static/js/main.1878c322.js.map"
   },
   "entrypoints": [
-    "static/css/main.5204555a.css",
+    "static/css/main.4bac85db.css",
     "static/js/main.1878c322.js"
   ]
 }
