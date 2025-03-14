@@ -1,4 +1,6 @@
 .nav-bar {
+    position: sticky;
+    top: 0px;
     background-image: radial-gradient(circle, #2575B4,#082342);
     height: 50px;
     display: flex;
