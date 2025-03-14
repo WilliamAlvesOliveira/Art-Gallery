@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: ART;
+    src: url(./fonts/RubikPuddles-Regular.ttf)format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Nome;
+    src: url(./fonts/LoveLight-Regular.ttf)format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    background-color: black;
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: 2px solid white;
+    padding: 2vw;
+}
+
+.title{
+    font-family: Art, sans-serif;
+    font-size: 3em;
+    color: white;
+    text-decoration: none;
+}
+
+.autor{
+    position: relative;
+    left: -20px;
+    top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nome{
+    font-family: Nome, sans-serif;
+    font-size: 1.5em;
+}
+
+#nav-root{
+    position: sticky;
+    top: 0;
+}
+
+main{
+    background-color: #F7CD00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sobre{
+    background-color: #e6e6e6;
+    width: 100%;
+}   
+
+#sobre > p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    line-height: 20px;
+    max-width: 1000px;
+}

@@ -1,0 +1,68 @@
+@font-face {
+    font-family: carrosel;
+    src: url(../assets/fonts/Coiny-Regular.ttf)format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    font-family: carrosel, sans-serif;
+    color: white;
+}
+
+.carrossel-text span {
+    display: inline-block;
+  }
+  
+  .letra-branca {
+    color: #FF1200;
+    animation: desceSobe 8s linear infinite;
+  }
+  
+  .letra-azul {
+    color: #2575B4;
+    animation: subeDesce 8s linear infinite;
+  }
+  
+  @keyframes subeDesce{
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-5px);
+    }
+    50% {
+      transform: translateY(0);
+    }
+    75% {
+      transform: translateY(5px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+
+  @keyframes desceSobe {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(5px);
+    }
+    50% {
+      transform: translateY(0);
+    }
+    75% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
