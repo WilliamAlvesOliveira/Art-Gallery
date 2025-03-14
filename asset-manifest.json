@@ -1,20 +1,14 @@
 {
   "files": {
-    "main.css": "/Art-Gallery/static/css/main.106df7cd.css",
-    "main.js": "/Art-Gallery/static/js/main.4111f445.js",
-    "static/js/453.407d9c55.chunk.js": "/Art-Gallery/static/js/453.407d9c55.chunk.js",
-    "static/media/unicorn.jpg": "/Art-Gallery/static/media/unicorn.567703f935e242709a96.jpg",
-    "static/media/skate-dragon.jpg": "/Art-Gallery/static/media/skate-dragon.91976cec7a8427fd60f4.jpg",
-    "static/media/tiger.jpg": "/Art-Gallery/static/media/tiger.ef3e19a2a6e561e75afa.jpg",
-    "static/media/surfgirafa.jpg": "/Art-Gallery/static/media/surfgirafa.e1738d54246f91b9d0ef.jpg",
+    "main.css": "/Art-Gallery/static/css/main.b55273df.css",
+    "main.js": "/Art-Gallery/static/js/main.e7d2ad39.js",
     "static/media/Coiny-Regular.ttf": "/Art-Gallery/static/media/Coiny-Regular.61e71214a606a6502029.ttf",
     "index.html": "/Art-Gallery/index.html",
-    "main.106df7cd.css.map": "/Art-Gallery/static/css/main.106df7cd.css.map",
-    "main.4111f445.js.map": "/Art-Gallery/static/js/main.4111f445.js.map",
-    "453.407d9c55.chunk.js.map": "/Art-Gallery/static/js/453.407d9c55.chunk.js.map"
+    "main.b55273df.css.map": "/Art-Gallery/static/css/main.b55273df.css.map",
+    "main.e7d2ad39.js.map": "/Art-Gallery/static/js/main.e7d2ad39.js.map"
   },
   "entrypoints": [
-    "static/css/main.106df7cd.css",
-    "static/js/main.4111f445.js"
+    "static/css/main.b55273df.css",
+    "static/js/main.e7d2ad39.js"
   ]
 }
