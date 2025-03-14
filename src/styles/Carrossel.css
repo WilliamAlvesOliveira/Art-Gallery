@@ -7,9 +7,11 @@
 
 #carrossel{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 h2{
     display: flex;
     justify-content: center;
