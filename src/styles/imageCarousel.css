@@ -1,26 +1,63 @@
 .carrossel {
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0f0f0;
-  }
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .carousel-slice{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    width: 94vw;
-    max-width: 800px;
-    background-image:linear-gradient(#9B0B00,#FF1200, #9B0B00) ;
-    border-radius: 10px;
-    
-  }
 
-  .carousel-image{
-    width: 300px;;
-    height: 300px;
-    border-radius: 10px;
-  }
+.carousel-display{
+  background-image:linear-gradient(#9B0B00,#FF1200, #9B0B00) ;
+  display: grid;
+  width: 100vw;
+  max-width: 1000px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px 0px;
+}
+
+.carousel-slice{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.carousel-image{
+  width: 300px;;
+  height: 300px;
+  border-radius: 10px;
+}
+
+button{
+  background-color: rgba(0, 0, 0, 0.700);
+  height: 300px;
+  width: 100%;
+  max-width: 50px;
+  color: white;
+}
+
+.iconleft{
+  justify-self: right;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.iconright{
+  border-radius: 0px 20px 20px 0px;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  background: gray;
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+    background: black;
+}

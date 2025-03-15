@@ -28,12 +28,12 @@ h2{
   
 .letra-branca {
   color: #FF1200;
-  animation: desceSobe 8s linear infinite;
+  animation: desceSobe 6s linear infinite;
 }
 
 .letra-azul {
   color: #2575B4;
-  animation: subeDesce 8s linear infinite;
+  animation: subeDesce 6s linear infinite;
 }
   
 @keyframes subeDesce{
