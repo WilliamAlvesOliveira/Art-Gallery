@@ -15,17 +15,17 @@ const Mosaic = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const breakpointColumns = {
-    default: 4, // 4 colunas para telas grandes
-    768: 3, // 3 colunas para tablets
-    480: 3, // 2 colunas para celulares
+    default: 4,
+    768: 3,
+    480: 3,
   };
 
   const openImage = (image) => {
-    setSelectedImage(image); // Define a imagem selecionada
+    setSelectedImage(image);
   };
 
   const closeModal = () => {
-    setSelectedImage(null); // Fecha o modal
+    setSelectedImage(null);
   };
 
   return (
@@ -40,14 +40,13 @@ const Mosaic = () => {
             <img
               src={image.src}
               alt={image.alt || `Imagem ${index + 1}`}
-              onClick={() => openImage(image.src)} // Abre a imagem ao clicar
+              onClick={() => openImage(image.src)}
               className="clickable-img"
             />
           </div>
         ))}
       </Masonry>
 
-      {/* Modal */}
       {selectedImage && (
         <div className="modal" onClick={closeModal}>
           <span className="close">&times;</span>
