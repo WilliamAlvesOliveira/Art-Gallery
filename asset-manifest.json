@@ -1,20 +1,41 @@
 {
   "files": {
-    "main.css": "/Art-Gallery/static/css/main.412aad8b.css",
-    "main.js": "/Art-Gallery/static/js/main.488e8a2d.js",
+    "main.css": "/Art-Gallery/static/css/main.b0429425.css",
+    "main.js": "/Art-Gallery/static/js/main.b5330f3a.js",
+    "static/media/Cereus-jamacaru.png": "/Art-Gallery/static/media/Cereus-jamacaru.4ece7f0b107ea9c7da18.png",
     "static/media/RubikPuddles-Regular.ttf": "/Art-Gallery/static/media/RubikPuddles-Regular.db0b337f1dcd411924e4.ttf",
+    "static/media/jaguatirica.jpg": "/Art-Gallery/static/media/jaguatirica.37ceaf81a28381048574.jpg",
+    "static/media/cajueiro.jpg": "/Art-Gallery/static/media/cajueiro.93171c04ad27d26a095b.jpg",
+    "static/media/goiabeira.jpg": "/Art-Gallery/static/media/goiabeira.84e917cbbdfac9b289b0.jpg",
+    "static/media/onça.jpg": "/Art-Gallery/static/media/onça.40f7b089c80cbaf0ceb9.jpg",
+    "static/media/jibóia.jpg": "/Art-Gallery/static/media/jibóia.ccb04c976ce3d4b84241.jpg",
     "static/media/unicorn.jpg": "/Art-Gallery/static/media/unicorn.567703f935e242709a96.jpg",
+    "static/media/lobo.jpg": "/Art-Gallery/static/media/lobo.5c6d8a649c2ac89b435c.jpg",
+    "static/media/sucuri.jpg": "/Art-Gallery/static/media/sucuri.73acfab23376a86eb0a0.jpg",
     "static/media/skate-dragon.jpg": "/Art-Gallery/static/media/skate-dragon.91976cec7a8427fd60f4.jpg",
+    "static/media/arara.jpg": "/Art-Gallery/static/media/arara.b10ac5b85e98dbfd1d98.jpg",
+    "static/media/capivara.jpg": "/Art-Gallery/static/media/capivara.4c2ee483f0c84312d9ac.jpg",
     "static/media/tiger.jpg": "/Art-Gallery/static/media/tiger.ef3e19a2a6e561e75afa.jpg",
+    "static/media/ema.jpg": "/Art-Gallery/static/media/ema.e109084bddfc1f21b333.jpg",
+    "static/media/gambá.jpg": "/Art-Gallery/static/media/gambá.ddcf25a3953daca92a64.jpg",
+    "static/media/Hanalei-Regular.ttf": "/Art-Gallery/static/media/Hanalei-Regular.31f2ea6f650f0252b77f.ttf",
+    "static/media/tababuia.jpg": "/Art-Gallery/static/media/tababuia.641b57d73786dcfbc3e3.jpg",
     "static/media/LoveLight-Regular.ttf": "/Art-Gallery/static/media/LoveLight-Regular.18481933e12c3de9cf3c.ttf",
+    "static/media/tamandua.jpg": "/Art-Gallery/static/media/tamandua.c980795119367df0e691.jpg",
     "static/media/surfgirafa.jpg": "/Art-Gallery/static/media/surfgirafa.e1738d54246f91b9d0ef.jpg",
+    "static/media/carambola.jpg": "/Art-Gallery/static/media/carambola.4914d9041eb9423a1526.jpg",
+    "static/media/mate.jpg": "/Art-Gallery/static/media/mate.1cb25a0e3acadc1be89a.jpg",
     "static/media/Coiny-Regular.ttf": "/Art-Gallery/static/media/Coiny-Regular.61e71214a606a6502029.ttf",
+    "static/media/pitangueira.jpg": "/Art-Gallery/static/media/pitangueira.70b3f134bd92016571d9.jpg",
+    "static/media/tucano.jpg": "/Art-Gallery/static/media/tucano.937c42ec0755b4c07002.jpg",
+    "static/media/peixe-boi.jpg": "/Art-Gallery/static/media/peixe-boi.a9928ae121efe6345cd3.jpg",
+    "static/media/preguiça.jpg": "/Art-Gallery/static/media/preguiça.9d8f5a27a0347012be09.jpg",
     "index.html": "/Art-Gallery/index.html",
-    "main.412aad8b.css.map": "/Art-Gallery/static/css/main.412aad8b.css.map",
-    "main.488e8a2d.js.map": "/Art-Gallery/static/js/main.488e8a2d.js.map"
+    "main.b0429425.css.map": "/Art-Gallery/static/css/main.b0429425.css.map",
+    "main.b5330f3a.js.map": "/Art-Gallery/static/js/main.b5330f3a.js.map"
   },
   "entrypoints": [
-    "static/css/main.412aad8b.css",
-    "static/js/main.488e8a2d.js"
+    "static/css/main.b0429425.css",
+    "static/js/main.b5330f3a.js"
   ]
 }
