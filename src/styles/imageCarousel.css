@@ -12,8 +12,8 @@
   display: grid;
   width: 100vw;
   max-width: 1000px;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 10px 0px;
+  grid-template-columns: 1fr 5fr 1fr;
+  border-radius: 20px;
 }
 
 .carousel-slice{
@@ -25,21 +25,22 @@
 }
 
 .carousel-image{
-  width: 300px;;
-  height: 300px;
+  width: 100%;
+  max-width: 300px;
   border-radius: 10px;
 }
 
 button{
   background-color: rgba(0, 0, 0, 0.700);
-  height: 300px;
+  height: 100%;
   width: 100%;
   max-width: 50px;
   color: white;
+  justify-self: right;
 }
 
 .iconleft{
-  justify-self: right;
+  justify-self: left;
   border-radius: 20px 0px 0px 20px;
 }
 

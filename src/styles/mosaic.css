@@ -1,0 +1,20 @@
+.mosaic-container {
+    display: flex;
+    margin-left: -10px; /* Compensa o gap entre as colunas */
+    width: auto;
+    max-width: 1000px;
+  }
+  
+  .mosaic-column {
+    padding-left: 10px; /* Espaçamento entre as colunas */
+    background-clip: padding-box;
+  }
+  
+  .mosaic-item img {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px; /* Espaçamento entre os itens */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  

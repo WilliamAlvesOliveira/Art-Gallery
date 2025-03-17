@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+PROJETO ART GALLERY
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SEÇÕES:
 
-## Available Scripts
+- Carrossel
+- Mosaico
+- Cards
+	Cards Dinâmicos:
 
-In the project directory, you can run:
+Cada card pode conter o nome do dinossauro, uma imagem marcante e um breve texto descritivo. Você pode até incluir informações curiosas, como era geológica, habitat ou hábitos alimentares, para torná-los mais educativos e interessantes.
 
-### `npm start`
+Para um toque extra, você pode adicionar animações ou um efeito de hover para destacar o card quando o usuário interagir com ele.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Background Dinâmico:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Quando o usuário passa o mouse (ou seleciona) um card, o background correspondente ao card se atualiza com uma nova imagem do dinossauro.
 
-### `npm test`
+Essa transição pode incluir efeitos visuais suaves, como um fade-in/fade-out, para tornar a mudança mais elegante.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para reforçar a imersão, o background pode ocupar toda a seção acima ou ao redor dos cards, criando uma atmosfera única para cada dinossauro.
 
-### `npm run build`
+Organização Visual:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para criar um visual inspirado no Netflix, os cards podem ser dispostos em fileiras organizadas horizontalmente, com rolagem para navegar entre eles.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+O background dinâmico deve ser amplo o suficiente para capturar a atenção, mas não tirar o foco dos cards.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Toques Extras (Futuro):
 
-### `npm run eject`
+Interatividade Avançada: Inclua botões nos cards para mais informações, como "Ler mais", que abre um modal com detalhes adicionais sobre o dinossauro.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Som ambiente: Sons suaves, como florestas pré-históricas, para criar uma experiência mais imersiva.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Emoçõess
+- Parallax

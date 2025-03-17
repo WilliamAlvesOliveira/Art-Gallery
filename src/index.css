@@ -26,6 +26,13 @@ code {
     font-style: normal;
 }
 
+@font-face {
+  font-family: Masonry;
+  src: url(./assets/fonts/Hanalei-Regular.ttf)format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 header{
     background-color: black;
     border-radius: 20px 20px 0px 0px;
@@ -59,7 +66,6 @@ main{
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 3000px;
 }
 
 #sobre{
@@ -74,4 +80,19 @@ main{
   text-align: center;
   line-height: 20px;
   max-width: 1000px;
+}
+
+.masonry{
+  font-family: Masonry, 'Times New Roman', Times, serif ;
+  color: black;
+  margin-bottom: None;
+}
+
+.brasil{
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 20px;
+  background-image: radial-gradient(#203F2F, #C9DC4B, #203F2F);
+  width: 100%
 }
