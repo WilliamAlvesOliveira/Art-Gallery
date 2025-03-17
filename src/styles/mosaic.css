@@ -1,20 +1,60 @@
 .mosaic-container {
     display: flex;
-    margin-left: -10px; /* Compensa o gap entre as colunas */
+    margin-left: -10px;
     width: auto;
     max-width: 1000px;
   }
   
   .mosaic-column {
-    padding-left: 10px; /* Espaçamento entre as colunas */
+    padding-left: 10px;
     background-clip: padding-box;
   }
   
   .mosaic-item img {
     width: 100%;
     display: block;
-    margin-bottom: 10px; /* Espaçamento entre os itens */
+    margin-bottom: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .modal {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    z-index: 1001;
+  }
+  
+  .clickable-img {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .clickable-img:hover {
+    transform: scale(1.05); 
   }
   
