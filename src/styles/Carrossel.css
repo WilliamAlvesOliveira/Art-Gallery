@@ -72,3 +72,13 @@ h2{
     transform: translateY(0);
   }
 }
+
+@media (max-width: 350px){
+  body p{
+    font-size: 8vw;
+  }
+  h2{
+    gap: 5vw;
+    font-size: 8vw;
+  }
+}

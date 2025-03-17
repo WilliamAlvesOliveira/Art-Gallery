@@ -96,3 +96,18 @@ main{
   background-image: radial-gradient(#203F2F, #C9DC4B, #203F2F);
   width: 100%
 }
+
+@media (max-width: 360px){
+  .title{
+    font-family: Art, sans-serif;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+  }
+
+  .autor{
+    display: block;
+    position: static;
+    font-size: 0.5em;
+  }
+}
