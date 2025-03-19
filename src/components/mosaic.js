@@ -30,6 +30,8 @@ const Mosaic = () => {
 
   return (
     <section className="brasil">
+       <h2 className='masonry'>Masonry Layout</h2>
+       <p>Que tal fazermos um breve tour pela fauna e flora do brasil atraves de um Mansoty Layou?</p>
       <Masonry
         breakpointCols={breakpointColumns}
         className="mosaic-container"

@@ -1,3 +1,20 @@
+.brasil{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 20px;
+  padding: 20px;
+  background-image: radial-gradient(#203F2F, #C9DC4B, #203F2F);
+  width: 100%;
+}
+
+.masonry{
+  font-family: Masonry, 'Times New Roman', Times, serif ;
+  color: black;
+}
+
 .mosaic-container {
     display: flex;
     margin-left: -10px;
