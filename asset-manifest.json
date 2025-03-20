@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Art-Gallery/static/css/main.b7886c20.css",
-    "main.js": "/Art-Gallery/static/js/main.4993cb4e.js",
+    "main.css": "/Art-Gallery/static/css/main.97a4e8e0.css",
+    "main.js": "/Art-Gallery/static/js/main.824a99c6.js",
     "static/media/Cereus-jamacaru.png": "/Art-Gallery/static/media/Cereus-jamacaru.4ece7f0b107ea9c7da18.png",
     "static/media/RubikPuddles-Regular.ttf": "/Art-Gallery/static/media/RubikPuddles-Regular.db0b337f1dcd411924e4.ttf",
     "static/media/jaguatirica.jpg": "/Art-Gallery/static/media/jaguatirica.37ceaf81a28381048574.jpg",
@@ -56,11 +56,11 @@
     "static/media/peixe-boi.jpg": "/Art-Gallery/static/media/peixe-boi.a9928ae121efe6345cd3.jpg",
     "static/media/preguiça.jpg": "/Art-Gallery/static/media/preguiça.9d8f5a27a0347012be09.jpg",
     "index.html": "/Art-Gallery/index.html",
-    "main.b7886c20.css.map": "/Art-Gallery/static/css/main.b7886c20.css.map",
-    "main.4993cb4e.js.map": "/Art-Gallery/static/js/main.4993cb4e.js.map"
+    "main.97a4e8e0.css.map": "/Art-Gallery/static/css/main.97a4e8e0.css.map",
+    "main.824a99c6.js.map": "/Art-Gallery/static/js/main.824a99c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7886c20.css",
-    "static/js/main.4993cb4e.js"
+    "static/css/main.97a4e8e0.css",
+    "static/js/main.824a99c6.js"
   ]
 }
