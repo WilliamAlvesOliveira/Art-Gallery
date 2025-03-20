@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import '../styles/streaming.css';
 import Characters from '../data/characters.json';
 
-// Função para importar imagens dinamicamente
 const importImages = (requireContext) => {
     const images = {};
     requireContext.keys().forEach((item) => {
@@ -12,13 +11,11 @@ const importImages = (requireContext) => {
     return images;
 };
 
-// Carregar todas as imagens da pasta "streaming"
 const images = importImages(require.context('../assets/streaming', false, /\.(png|jpe?g|svg)$/));
 
 const Streaming = () => {
     const [selectedCard, setSelectedCard] = useState(null);
 
-    // Obter informações do personagem selecionado
     const selectedCharacter = selectedCard ? Characters.find(character => character.name === selectedCard) : null;
     const currentBackground = selectedCharacter
         ? images[`${selectedCharacter.name.toLowerCase()}back`]
@@ -27,7 +24,6 @@ const Streaming = () => {
     return (
         <section id="streaming">
             <h2>Streaming Cards</h2>
-            {/* Poster com fundo dinâmico */}
             <div id="poster" style={{
                 backgroundImage: `url(${currentBackground})`,
                 backgroundSize: 'cover',
@@ -41,7 +37,6 @@ const Streaming = () => {
                 )}
             </div>
 
-            {/* Cards dos personagens */}
             <div id="cards">
                 {Characters.map((character, index) => {
                     const frontImage = images[`${character.name.toLowerCase()}front`];

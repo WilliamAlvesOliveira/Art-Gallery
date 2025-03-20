@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Masonry from "react-masonry-css";
 import "../styles/mosaic.css";
+import Wall from "./mansoryText.js";
 
+// Importação dinâmica das imagens
 function importAll(r) {
   return r.keys().map((key) => ({
     src: r(key),
@@ -17,7 +19,7 @@ const Mosaic = () => {
   const breakpointColumns = {
     default: 4,
     768: 3,
-    480: 3,
+    480: 2,
   };
 
   const openImage = (image) => {
@@ -28,10 +30,23 @@ const Mosaic = () => {
     setSelectedImage(null);
   };
 
+  // Fechar modal ao pressionar a tecla "Esc"
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.key === "Escape") {
+        closeModal();
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, []);
+
   return (
     <section className="brasil">
-       <h2 className='masonry'>Masonry Layout</h2>
-       <p>Que tal fazermos um breve tour pela fauna e flora do brasil atraves de um Mansoty Layou?</p>
+      <Wall />
+      <p>Que tal fazermos um breve tour pela fauna e flora do Brasil através de um Masonry Layout?</p>
+      
       <Masonry
         breakpointCols={breakpointColumns}
         className="mosaic-container"

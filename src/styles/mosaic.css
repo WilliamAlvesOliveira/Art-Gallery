@@ -10,9 +10,8 @@
   width: 100%;
 }
 
-.masonry{
-  font-family: Masonry, 'Times New Roman', Times, serif ;
-  color: black;
+.brasil > p{
+  color: white;
 }
 
 .mosaic-container {
