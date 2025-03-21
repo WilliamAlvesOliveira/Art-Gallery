@@ -1,7 +1,3 @@
-:root {
-    --screen: calc(100vh - 75px);
-}
-
 *{
     margin: 0;
     padding: 0;

@@ -27,7 +27,7 @@ const Streaming = () => {
             <div id="poster" style={{
                 backgroundImage: `url(${currentBackground})`,
                 backgroundSize: 'cover',
-                backgroundPosition: 'center top'
+                backgroundPosition: 'center'
             }}>
                 {selectedCharacter && (
                     <div className="character-info">

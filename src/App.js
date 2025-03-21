@@ -5,6 +5,7 @@ import Carousel from './components/carousel';
 import Mosaic from"./components/mosaic";
 import Streaming from './components/streaming';
 import Parallax from './components/parallax';
+import Emotion from './components/emotion';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Mosaic/>
             <Streaming/>
             <Parallax/>
+            <Emotion/>
 
 
           </main> 

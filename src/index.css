@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+:root {
+  --screen: calc(100vh - 75px);
+}
+
 @font-face {
     font-family: ART;
     src: url(./assets/fonts/RubikPuddles-Regular.ttf)format('truetype');
@@ -29,6 +33,13 @@ code {
 @font-face {
   font-family: Masonry;
   src: url(./assets/fonts/Hanalei-Regular.ttf)format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Handwriting;
+  src: url(./assets/fonts/Caveat-VariableFont_wght.ttf)format('truetype');
   font-weight: 400;
   font-style: normal;
 }
@@ -59,6 +70,7 @@ header{
 .nome{
     font-family: Nome, sans-serif;
     font-size: 1.5em;
+    box-sizing: border-box;
 }
 
 main{
