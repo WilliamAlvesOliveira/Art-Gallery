@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Art-Gallery/static/css/main.8e3abc34.css",
+    "main.css": "/Art-Gallery/static/css/main.ba0f8c5e.css",
     "main.js": "/Art-Gallery/static/js/main.8bdaf3ae.js",
     "static/media/Cereus-jamacaru.png": "/Art-Gallery/static/media/Cereus-jamacaru.4ece7f0b107ea9c7da18.png",
     "static/media/alegria.jpg": "/Art-Gallery/static/media/alegria.4a6e3ed6c8a0d04c6487.jpg",
@@ -64,11 +64,11 @@
     "static/media/peixe-boi.jpg": "/Art-Gallery/static/media/peixe-boi.a9928ae121efe6345cd3.jpg",
     "static/media/preguiça.jpg": "/Art-Gallery/static/media/preguiça.9d8f5a27a0347012be09.jpg",
     "index.html": "/Art-Gallery/index.html",
-    "main.8e3abc34.css.map": "/Art-Gallery/static/css/main.8e3abc34.css.map",
+    "main.ba0f8c5e.css.map": "/Art-Gallery/static/css/main.ba0f8c5e.css.map",
     "main.8bdaf3ae.js.map": "/Art-Gallery/static/js/main.8bdaf3ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e3abc34.css",
+    "static/css/main.ba0f8c5e.css",
     "static/js/main.8bdaf3ae.js"
   ]
 }
